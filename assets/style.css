@@ -1,0 +1,92 @@
+.container-100ch{
+     height: 100vh;
+}
+
+.flex{
+     display: flex;
+}
+
+.bg-gray{
+     background-color: rgb(71, 71, 71);
+     
+}
+
+.bg-black{
+     background-color: rgb(33, 33, 33);
+     color: white;
+}
+
+header div{
+     padding-top: 5px;
+     padding-right: 5px;
+     padding-bottom: 20px;
+     justify-content: flex-end;
+}
+
+.button{
+     padding: 3px;
+     margin-left: 5px;
+     border-radius: 4px;
+}
+
+.flex-wrap{
+     flex-wrap: wrap;
+}
+
+.container-foto{
+     width: 90%;
+     margin: auto;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+}
+
+img{
+     width: calc(100% / 8);
+     padding: 3px 3px;
+}
+
+.relative{
+     position: relative;
+}
+
+.absolute{
+     position: absolute;
+     left: 5px;
+     bottom: 8px;
+}
+
+main section div{
+     display: inline;
+}
+
+footer{
+     justify-content: space-between;
+     padding: 20px;
+}
+
+footer section{
+     align-items: center;
+}
+
+.flex-column{
+     flex-direction: column;
+}
+
+.text-center{
+     text-align: center;
+}
+
+.margin10{
+     margin: 0 10px;
+}
+
+.green{
+     color: lime;
+}
+
+.end-button{
+     color: red;
+     background-color: grey;
+     padding: 20px;
+}
